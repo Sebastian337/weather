@@ -12,18 +12,13 @@ def get_weather_for_city(city):
     return response.text
 
 
-def display_weather(weather_text):
-
-    print(weather_text)
-
-
 def main():
 
     cities = ["Лондон", "Шереметьево", "Череповец"]
     
     for city in cities:
         weather_text = get_weather_for_city(city)
-        display_weather(weather_text)
+        print(weather_text)
 
 
 if __name__ == "__main__":
