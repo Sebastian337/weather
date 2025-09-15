@@ -14,7 +14,7 @@ Python: версия 3.6 или выше
 Скрипт требует библиотеку `requests`
 Чтобы установить используйте pip:
 ```bash
-~ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 ## 4. Пример запуска и проверка результата
 
